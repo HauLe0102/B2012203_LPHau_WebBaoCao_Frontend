@@ -154,12 +154,6 @@ export default {
                 <td>{{ item.username }}</td>
                 <td>{{ item.email }}</td>
                 <td>
-                    <!-- <router-link :to="{
-                        name: 'EditAuthor',
-                        params: { id: item._id },
-                    }">
-                        <button type="button" class="btn btn-warning"><i class="fa-regular fa-pen-to-square"></i> Sửa</button>
-                    </router-link> -->
 
                     <br>
                     <br>

@@ -135,10 +135,6 @@ export default {
         </div>
 
         <!-- Ghi nhớ đăng nhập -->
-        <!-- <div class="mb-3 form-check">
-                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                <label class="form-check-label" for="exampleCheck1">Ghi nhớ đăng nhập</label>
-                            </div> -->
 
         <button type="submit" class="btn btn-light fw-bold" style="padding: 10px;;border:1px solid #ccc"
             @click="createUser()">Xác Nhận</button>

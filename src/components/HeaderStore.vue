@@ -205,45 +205,6 @@ export default {
                             }" v-for="item in ManageCategory">
                                 <li>{{ item.category_name }}</li>
                             </router-link>
-
-                            <!-- 
-                                                                    <router-link @click="navigationCategory()" :to="{
-                                                                        name: 'CategoryBook',
-                                                                        params: { name: JSON.stringify('Văn Học') },
-                                                                    }">
-                                                                        <li>Văn Học</li>
-                                                                    </router-link>
-                                                                    <router-link @click="navigationCategory()" :to="{
-                                                                        name: 'CategoryBook',
-                                                                        params: { name: JSON.stringify('Kinh Tế') },
-                                                                    }">
-                                                                        <li>Kinh Tế</li>
-                                                                    </router-link>
-                                                                    <router-link @click="navigationCategory()" :to="{
-                                                                        name: 'CategoryBook',
-                                                                        params: { name: JSON.stringify('Tiểu Sử Hồi Ký') },
-                                                                    }">
-                                                                        <li>Tiểu Sử Hồi Ký</li>
-                                                                    </router-link>
-                                                                    <router-link @click="navigationCategory()" :to="{
-                                                                        name: 'CategoryBook',
-                                                                        params: { name: JSON.stringify('Tâm Lý - Kỹ Năng Sống') },
-                                                                    }">
-                                                                        <li>Tâm Lý - Kỹ Năng Sống</li>
-                                                                    </router-link>
-                                                                    <router-link @click="navigationCategory()" :to="{
-                                                                        name: 'CategoryBook',
-                                                                        params: { name: JSON.stringify('Sách Thiếu Nhi') },
-                                                                    }">
-                                                                        <li>Sách Thiếu Nhi</li>
-                                                                    </router-link>
-                                                                    <router-link @click="navigationCategory()" :to="{
-                                                                        name: 'CategoryBook',
-                                                                        params: { name: JSON.stringify('Sách Giáo Khoa - Tham Khảo') },
-                                                                    }">
-                                                                        <li>Sách Giáo Khoa</li>
-                                                                    </router-link> -->
-
                         </div>
 
                     </ul>
@@ -265,9 +226,6 @@ export default {
                         <div>
                             Hỗ trợ
                         </div>
-                        <!-- <div class="fw-bold">
-                            +84 987456123
-                        </div> -->
                     </div>
                 </div>
 
@@ -278,11 +236,7 @@ export default {
                                 TRANG CHỦ
                             </router-link>
                         </li>
-                        <!-- <li class="nav-item" style="margin-right:15px;">
-                            <router-link to="/storesystem" class="text-decoration-none text-white">
-                                HỆ THỐNG NHÀ SÁCH
-                            </router-link>
-                        </li> -->
+
                         <li class="nav-item" style="margin-right:120px;">
                             <router-link to="/introduce" class="text-decoration-none text-white">
                                 GIỚI THIỆU
@@ -344,7 +298,7 @@ a {
 }
 
 #nav_bottom {
-    background-color: #62ab00;
+    background-color: #ab0000;
     height: 76px;
 }
 
